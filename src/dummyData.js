@@ -1,7 +1,7 @@
 export const homeData = [
     {
       id: 1,
-      name: "Sand Dust",
+      name: "Sand Storm",
       rating: 4.7,
       time: "2hr : 22mins",
       desc: "Sand and dust storms (SDS), also known as sirocco, haboob, yellow dust, white storms, and the harmattan, are a natural phenomenon linked with land and water management and climate change.",
@@ -9,12 +9,12 @@ export const homeData = [
       genres: "Action",
       tags: "Action, Adventures, Horror",
       cover: "../images/home1.jpg",
-      video: "../video/video1.mp4",
+      video: "https://v.culturebase.org/s/a/n/d/_/sand_storm.2016.film.lang_en.mp4.mp4?t=1699064183&sig=-qcLU8pmG-PgalGH2kuEwQ",
       date: "20-Jan-1997",
     },
     {
       id: 2,
-      name: "skull island",
+      name: "Skull Island",
       rating: 4.6,
       time: "2hr : 22mins",
       desc: "The island, like its inhabitants, is wholly fictional. Kong's island home in the Pacific makes its first appearance, along with Kong himself, in the 1933 film King Kong. ",
@@ -22,7 +22,7 @@ export const homeData = [
       genres: "Adventures",
       tags: "Adventures,Animation,Family",
       cover: "../images/home2.jpg",
-      video: "../video/video2.mp4",
+      video: "https://cdn.theguardian.tv/mainwebsite/2016/11/17/161117KongSkullIslandTrailer_desk.mp4",
       date: "10-JUL-2021",
     },
     {
@@ -35,7 +35,7 @@ export const homeData = [
       genres: "Adventures",
       tags: "Adventures,Action ",
       cover: "../images/home3.jpg",
-      video: "../video/video3.mp4",
+      video: "https://v.culturebase.org/t/h/e/_/p/the_pirates_in_an_adventure_wi.2012.trailer.en.mp4.mp4?t=1699064344&sig=BfNhJ2ml5U3hIA29ONjvNg",
       date: "20-FEB-2010",
     },
     {
@@ -48,7 +48,7 @@ export const homeData = [
       genres: "Action",
       tags: "Action, Adventures, Horror",
       cover: "../images/home4.jpg",
-      video: "../video/video4.mp4",
+      video: "https://v.culturebase.org/k/a/p/r/i/kapringen.2012.trailer.da.omu_en.mp4.mp4?t=1699064291&sig=BMrXSlM_erdgP62NYWev3w",
       date: "12-Aug-2015",
     },
   ]
