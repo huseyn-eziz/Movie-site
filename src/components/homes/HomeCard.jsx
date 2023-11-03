@@ -23,30 +23,31 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
             <label >{rating}</label>
             <span>GP</span>
             <label>{time}</label>
-          </div>
-          <div className="cast">
-            <h4><span>Starring</span>{starring}</h4>
-            <h4><span>Genres</span>{genres}</h4>
-            <h4><span>Tags</span>{tags}</h4>
-          </div>
-          <button className="primary-btn">
-            <i className='fas fa-play'>
-            </i>
-            PLAY NOW
-          </button>
-          <div className="button row">
-            <Link to={`/singlepage/${id}`}>
-              <button>
-                <div className="img">
-                  <img src="./images/play-button.png" alt="" />
-                  <img src="./images/play.png" alt="" />
-                </div>
-                Watch Trailer
-              </button>
-            </Link>
-          </div>
+        <p>{desc}</p>
+        <div className="cast">
+          <h4><span>Starring</span>{starring}</h4>
+          <h4><span>Genres</span>{genres}</h4>
+          <h4><span>Tags</span>{tags}</h4>
+        </div>
+        <button className="primary-btn">
+          <i className='fas fa-play'>
+          </i>
+          PLAY NOW
+        </button>
+        </div>
+        <div className="playButton row">
+          <Link to={`/singlepage/${id}`}>
+            <button>
+              <div className="img">
+                <img src="./images/play-button.png" alt="" />
+                <img src="./images/play.png" alt="" className='change'/>
+              </div>
+              Watch Trailer
+            </button>
+          </Link>
         </div>
       </div>
+    </div >
     </>
   )
 }
